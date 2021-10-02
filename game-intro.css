@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0%;
+	padding: 0%;
+	background: url(https://www.photohdx.com/images/2017/04/dark-green-grungy-background.jpg)top repeat;
+}
+
+.navbar{
+	background-color: #060A21;
+	height: 80px;
+	position: relative;
+	 border-bottom: 3px solid orange;
+}
+
+
+
+.django-logo{
+	position: absolute;
+	height: 60px;
+	width: 130px;
+	left: 30px;
+	top:10px;
+	bottom: 5px;
+}
+
+.nav-link{
+	font-size: 23px;
+	color: white;
+}
+
+.nav-link:hover{
+	color: orange;
+}
+
+.carousel{
+	border-bottom: 4px solid orange;
+}
+.carousel-item{
+	height: 100%;
+}
+
+.carousel-item video{
+	width: 100%;
+}
+.carousel-caption {
+	 position: absolute;
+    top: 50%;
+}
+
+.carousel-caption h1{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+	font-size: 3em;
+}
+
+
+.panel-table{
+	background-image: url(https://antonriehl.com/images/background.jpg);
+	border-top: 10px solid #060A21;
+	padding: 30px;
+}
+
+.panel-table .panel-heading{
+	height: 55px;
+	color: white;
+	text-align: center;
+}
+.panel-body{
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.panel-table .panel-body table{
+	border-top: 2px solid orange;
+	border-bottom: 2px solid white;
+}
+
+.card-img-top{
+	background-color: black;
+	height: 300px;
+}
+.panel-footer{
+	padding-top: 50px;
+	color: white;
+}
+
+.page-link{
+	background-color: transparent;
+	color: white;
+}
+
+.page-link:hover{
+	background-color: orange;
+}

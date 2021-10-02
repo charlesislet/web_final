@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>django 射擊遊戲</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="game-intro.css" rel="stylesheet" media="all">
+<link href="file:///C:/Users/charles/Downloads/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<header>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="#"><img class="django-logo" src="django-logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+			  <div class="navbar-nav mr-auto"></div>
+			<div class="navbar-nav ">
+			  <a class="nav-item nav-link active" href="index.html">主頁<span class="sr-only">(current)</span></a>&emsp;
+			  <a class="nav-item nav-link" href="forum.html">論壇</a>&emsp;
+			  <a class="nav-item nav-link" href="#">遊戲介紹</a>&emsp;
+			  <a class="nav-item nav-link" href="profile-page.html">個人網頁</a>&emsp;
+			  <a class="nav-item nav-link" href="ranking.html">排行榜</a>&emsp;
+			  <button type="button" class="btn btn-warning btn-sm"  onclick="location.href='login-register.html'">登入|註冊</button>
+	
+			</div>
+		  </div>
+		</nav>
+	</header>
+	<main>
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <video loop="true" autoplay="autoplay" muted="true">
+                 <source src="game.mov" >
+              	</video>
+				 <div class="carousel-caption d-none d-md-block">
+					<h1 >Django射擊遊戲 遊戲介紹</h1>
+				  </div>
+				
+			</div>
+		  </div>
+		</div>
+			
+		<div class="col-13">
+
+            <div class="panel  panel-table ">
+				<div class="panel-heading">
+						
+              	</div>
+              <div class="panel-body">
+             	<div class="card-deck">
+				  <div class="card">
+					<img class="card-img-top" src="player.png" alt="Card image cap">
+					<div class="card-body">
+					  <h5 class="card-title">玩家</h5>
+					  <p class="card-text">玩家操控的角色。以鍵盤的W（跳躍）、A（往後）、D（往前）來操作。按下空白鍵則能射出火球攻擊。</p>
+					</div>
+					
+				  </div>
+				  <div class="card">
+					<img class="card-img-top" src="enemy.png" alt="Card image cap">
+					<div class="card-body">
+					  <h5 class="card-title">敵人</h5>
+					  <p class="card-text">遊戲中的敵人會不斷從右邊往左邊飛行，若玩家被敵人碰到，則會扣10點生命值。當生命值歸零，則遊戲結束。</p>
+					</div>
+					
+				  </div>
+				  <div class="card">
+					<img class="card-img-top" src="fireball.png" alt="Card image cap">
+					<div class="card-body">
+					  <h5 class="card-title">武器</h5>
+					  <p class="card-text">玩家使用的武器，按下空白鍵即可射出。若擊中敵人則能消滅敵人，消滅一個敵人能獲得10點分數。</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+            </div>
+
+		</div>
+			
+
+		
+	</main>
+</div>
+	
+
+	
+	
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+</body>
+</html>

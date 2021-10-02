@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0%;
+	padding: 0%;
+	background: url(https://www.photohdx.com/images/2017/04/dark-green-grungy-background.jpg)top  repeat;
+}
+
+.navbar{
+	background-color: #060A21;
+	height: 80px;
+	position: relative;
+	 border-bottom: 3px solid orange;
+}
+
+
+
+.game-logo{
+	position: absolute;
+	height: 60px;
+	width: 130px;
+	left: 30px;
+	top:10px;
+	bottom: 5px;
+}
+
+.nav-link{
+	font-size: 23px;
+	color: white;
+}
+
+.nav-link:hover{
+	color: orange;
+}
+
+.carousel{
+	border-bottom: 4px solid orange;
+}
+.carousel-item{
+	height: 60%;
+}
+
+.carousel-caption {
+	 position: absolute;
+    top: 30%;
+}
+
+.carousel-caption h1{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+	font-size: 3em;
+}
+
+.cover-text button{
+	position: absolute;
+	left: 25%;
+}
+
+.panel-table{
+	background-color: #060A21;
+	border-top: 10px solid #060A21;
+	padding: 30px;
+}
+
+.breadcrumb{
+	
+	background-color: transparent;
+}
+
+.breadcrumb-item {
+	font-size: 20px;
+}
+
+.breadcrumb-item a{
+	text-decoration-line: none;
+	color: white;
+}
+
+.breadcrumb-item a:hover{
+	color: orange;
+}
+
+.panel-heading .form-control{
+	width: 250px;
+}
+.panel-table .panel-heading{
+	height: 55px;
+}
+.panel-body{
+	padding-top: 15px;
+}
+.panel-table .panel-body table{
+	border-top: 2px solid orange;
+	border-bottom: 2px solid white;
+}
+
+.panel-table .panel-body th {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.panel-table .panel-body td {
+	color: white;
+	font-size: 17px;
+	text-align: right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.panel-table .panel-body td textarea{
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border: 0 none;
+	resize: none;
+	width: 900px;
+}
+
+.panel-table .panel-body td a{
+	text-decoration: none;
+	color: white;
+}
+
+.panel-table .panel-body td a:hover{
+	color: orange;
+}
+
+.panel-footer{
+	padding-top: 50px;
+	color: white;
+}
+
+.page-link{
+	background-color: transparent;
+	color: white;
+}
+
+.page-link:hover{
+	background-color: orange;
+}
+

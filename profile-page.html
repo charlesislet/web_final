@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>django 射擊遊戲</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="profile-page.css" rel="stylesheet" media="all">
+<link href="file:///C:/Users/charles/Downloads/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<header>
+		<nav class="navbar navbar-expand-lg ">
+		  <img class="game-logo" src="game-logo.png">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+			  <div class="navbar-nav mr-auto"></div>
+			<div class="navbar-nav ">
+			  <a class="nav-item nav-link active" href="index.html">主頁<span class="sr-only">(current)</span></a>&emsp;
+			  <a class="nav-item nav-link" href="forum.html">論壇</a>&emsp;
+			  <a class="nav-item nav-link" href="game-intro.html">遊戲介紹</a>&emsp;
+			  <a class="nav-item nav-link" href="profile-page.html">個人網頁</a>&emsp;
+			  <a class="nav-item nav-link" href="ranking.html">排行榜</a>&emsp;
+			  <button type="button" class="btn btn-warning btn-sm"  onclick="location.href='login-register.html'">登入|註冊</button>
+	
+			</div>
+		  </div>
+		</nav>
+	</header>
+	<main>
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="d-block w-100" src="game-cover.png" alt="First slide">
+				 <div class="carousel-caption d-none d-md-block">
+					<h1 >Django射擊遊戲 個人網頁</h1>
+				  </div>
+				
+			</div>
+		  </div>
+		</div>
+			
+		<div class="col-13 wrap">
+			     <div class="row">
+                    <div class="col-4">
+                        <div class="profile-img">
+                            <img src="https://tokegameart.net/wp-content/uploads/2018/09/Big-Gunner-Guy-2D-Character-Sprite.jpg" alt=""/>
+                            <div class="file btn btn-lg btn-primary">
+                                更換照片
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="profile-head">
+                                    <h2>
+                                        管理員<span class="badge badge-pill badge-warning">5</span>
+                                    </h2>
+                                    <p class="proile-rating">等級 : <span>5/10</span></p>
+							        <div class="progress">
+									  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+                        </div>
+                    </div>
+                </div>
+			<div class="row">
+			  <div class="col-4">
+				<div class="list-group-flush">
+				  <a href="profile-page.html" class="list-group-item list-group-item-action list-group-item-warning active ">
+					簡介
+				  </a>
+				  <a href="profile-friend.html" class="list-group-item list-group-item-action">朋友</a>
+				  <a href="profile-message.html" class="list-group-item list-group-item-action">留言板</a>
+				</div>
+			  </div>
+			  <div class="col-8">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-6">
+							<label><i class="fas fa-calendar-alt">&nbsp;加入日期</i></label>
+						</div>
+						<div class="col-md-6">
+							<p>2020.1.1</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<label><i class="fas fa-user">&nbsp;帳號名稱</i></label>
+						</div>
+						<div class="col-md-6">
+							<p>管理員</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<label><i class="fas fa-certificate">&nbsp;經驗值</i></label>
+						</div>
+						<div class="col-md-6">
+							<p>500 / 1000</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<label><i class="fas fa-coins">&nbsp;金幣</i></label>
+						</div>
+						<div class="col-md-6">
+							<p>1000</p>
+						</div>
+					</div>
+              </div>
+			  </div>
+			</div>
+		</div>
+			
+
+		
+	</main>
+</div>
+	
+
+	
+	
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>django 射擊遊戲</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="login-register.css" rel="stylesheet" media="all">
+<link href="file:///C:/Users/charles/Downloads/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="game-title">Django射擊遊戲</div>
+	<main>
+		<ul class="nav nav-tabs " id="myTab" role="tablist">
+		  <li class="nav-item " role="presentation">
+			<a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">登入</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+			<a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">註冊</a>
+		  </li>
+		</ul>
+		<div class="tab-content " id="myTabContent">
+		  <div class="tab-pane  show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+			  <form>
+				  <div class="form-group">
+					<label for="login-username"></label>
+					<input type="text" class="form-control" id="login-username" placeholder="輸入帳號">
+				  </div>
+				  <div class="form-group">
+					<label for="login-password"></label>
+					<input type="password" class="form-control" id="login-password" placeholder="輸入密碼">
+				  </div>
+				  <div class="btn-facebook">
+					<button type="button" class="btn btn-primary"><i class="fab fa-facebook fa-2x"><strong>以臉書登入</strong></i></button>
+				  </div>
+				  <br>
+				  <button type="submit" class="btn btn-warning">確認</button>
+			  </form>
+		  </div>
+		  <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+			  <form>
+				  <div class="form-group">
+					<label for="register-username"></label>
+					<input type="text" class="form-control" id="register-username" placeholder="輸入帳號">
+				  </div>
+				  <div class="form-group">
+					<label for="register-password"></label>
+					<input type="password" class="form-control" id="register-password" placeholder="輸入密碼">
+					<input type="password" class="form-control" id="register-password" placeholder="確認密碼">
+				  </div>
+				  <div class="btn-facebook">
+					<button type="button" class="btn btn-primary" onclick=""><i class="fab fa-facebook fa-2x"><strong>以臉書登入</strong></i></button>
+				  </div>
+				  <br>
+				  <button type="submit" class="btn btn-warning">確認</button>
+			  </form>
+		  </div>
+		</div>
+	</main>
+</div>
+	
+
+	
+	
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0%;
+	padding: 0%;
+	background-color: black;
+}
+
+.navbar{
+	background-image: url(https://antonriehl.com/images/background.jpg);
+	height: 80px;
+	position: relative;
+	 border-bottom: 3px solid orange;
+}
+
+
+
+.game-logo{
+	position: absolute;
+	height: 60px;
+	width: 130px;
+	left: 30px;
+	top:10px;
+	bottom: 5px;
+}
+
+.nav-link{
+	font-size: 23px;
+	color: white;
+}
+
+.nav-link:hover{
+	color: orange;
+}
+
+.carousel-item{
+	height: 100%;
+}
+
+.carousel-item img{
+	animation-duration: 5s;
+}
+
+
+.carousel-caption {
+	 position: absolute;
+    top: 20%;
+}
+
+.carousel-caption img{
+	height: 40%;
+}
+
+.carousel-caption h1{
+	color: white;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+	font-size: 5em;
+	animation-delay: 3s;
+}
+
+.carousel-item button{
+	height: 45px;
+	animation-delay: 4s;
+}
+

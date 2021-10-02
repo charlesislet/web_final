@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>django 射擊遊戲</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="forum.css" rel="stylesheet" media="all">
+<link href="file:///C:/Users/charles/Downloads/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<header>
+		<nav class="navbar navbar-expand-lg ">
+		  <img class="game-logo" src="game-logo.png">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+			  <div class="navbar-nav mr-auto"></div>
+			<div class="navbar-nav ">
+			  <a class="nav-item nav-link active" href="index.html">主頁<span class="sr-only">(current)</span></a>&emsp;
+			  <a class="nav-item nav-link" href="forum.html">論壇</a>&emsp;
+			  <a class="nav-item nav-link" href="game-intro.html">遊戲介紹</a>&emsp;
+			  <a class="nav-item nav-link" href="profile-page.html">個人網頁</a>&emsp;
+			  <a class="nav-item nav-link" href="ranking.html">排行榜</a>&emsp;
+			  <button type="button" class="btn btn-warning btn-sm"  onclick="location.href='login-register.html'">登入|註冊</button>
+	
+			</div>
+		  </div>
+		</nav>
+	</header>
+	<main>
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="game-cover.png" alt="First slide">
+				 <div class="carousel-caption d-none d-md-block">
+					<h1 >Django射擊遊戲 論壇</h1>
+				  </div>
+				
+			</div>
+		  </div>
+		</div>
+			
+		<div class="col-13">
+
+            <div class="panel  panel-table ">
+				
+				<div class="panel-heading">
+                <div class="row">
+                  <div class="col-8 ">
+                	<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">主頁</a></li>
+						<li class="breadcrumb-item active" aria-current="page">論壇</li>
+					  </ol>
+					</nav>
+                  </div>
+                  <div class="col-4 ">
+                  	<form class="form-inline ">
+					  <input class="form-control mr-2" type="search" placeholder="搜尋" aria-label="Search">
+					  <button class="btn btn-warning " type="submit">搜尋</button>
+					</form>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                        <th><i class="far fa-newspaper">&nbsp;標題</i></th>
+                        <th><i class="fas fa-sort-amount-down">主題數</i></th>
+                        <th><i class="fas fa-clock">&nbsp;建立時間</i></th>
+						<th><i class="fas fa-user">&nbsp;建立者</i></th>
+                    </tr> 
+                  </thead>
+                  <tbody>
+                          <tr>
+                            <td><a href="topic.html">關卡攻略</a></td>
+                            <td>1</td>
+							<td>2020.1.1</td>
+							<td>admin</td>
+                          </tr>
+                  </tbody>
+				  <tbody>
+                          <tr>
+                            <td><a href='#'>武器選擇</a></td>
+                            <td>5</td>
+							<td>2020.1.1</td>
+							<td>admin</td>
+                          </tr>
+                  </tbody>
+                </table>
+            
+              </div>
+              <div class="panel-footer">
+                <div class="row">
+                  <div class="col-5">Page 1 of 3
+                  </div>
+                  <div class="col-7 ">
+					  <ul class="pagination ">
+						<li class="page-item">
+						  <a class="page-link" href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						  </a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item">
+						  <a class="page-link" href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						  </a>
+						</li>
+					  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+		</div>
+			
+
+		
+	</main>
+</div>
+	
+
+	
+	
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+</body>
+</html>
